@@ -55,7 +55,7 @@
     controllers[3] = [[NTSubTableViewController alloc] initWithWidth:frame.size.width height:self.unselectedHeight delegate:self];
     controllers[4] = [[NTSubTableViewController alloc] initWithWidth:frame.size.width height:self.unselectedHeight delegate:self];
     
-    self.selectedHeight = self.table.frame.size.height - (controllers.count - 1) * self.unselectedHeight;// - self.headerHeight;
+    self.selectedHeight = self.table.frame.size.height - (controllers.count - 1) * self.unselectedHeight - self.headerHeight;
 
     self.selected = 0;
     for (int n=0; n < controllers.count; n++) {
