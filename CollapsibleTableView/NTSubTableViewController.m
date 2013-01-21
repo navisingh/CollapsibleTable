@@ -7,7 +7,6 @@
 //
 
 #import "NTSubTableViewController.h"
-#import "NTSubTable.h"
 #import "NTTableViewController.h"
 
 @interface NTSubTableViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -28,7 +27,7 @@
         self.headerHeight = height;
         self.delegate = delegate;
         
-        self.tableViewCell = [[NTSubTable alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"row"];
+        self.tableViewCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"row"];
         self.tableViewCell.frame = CGRectMake(0, 0, width, height); 
         [self.view addSubview:self.tableViewCell];
         

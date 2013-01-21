@@ -7,14 +7,12 @@
 //
 
 #import "NTTableViewController.h"
-#import "NTTableView.h"
 #import "NTSubTableViewController.h"
-#import "NTSubTable.h"
 
 @interface NTTableViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSArray *subTableViewControllers;
-@property (nonatomic, strong) NTTableView *table;
+@property (nonatomic, strong) UITableView *table;
 @property (nonatomic, assign) int selected;
 @property (nonatomic, assign) CGFloat headerHeight;
 @property (nonatomic, assign) CGFloat unselectedHeight;
@@ -42,7 +40,7 @@
     CGRect frame = self.view.frame;
     //    frame.origin.y = 0; //instead do self.wantsFullScreenLayout = YES; in initWithNibName:bundle
 //    NSLog(@"table frame: %f, %f, %f, %f", frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
-    self.table = [[NTTableView alloc] initWithFrame:frame];
+    self.table = [[UITableView alloc] initWithFrame:frame];
     self.table.delegate = self;
     self.table.dataSource = self;
     [self.view addSubview:self.table];

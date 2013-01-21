@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class NTSubTable;
 @class NTTableViewController;
 @interface NTSubTableViewController : UIViewController
-@property (nonatomic, strong) NTSubTable *tableViewCell;
+@property (nonatomic, strong) UITableViewCell *tableViewCell;
 @property (nonatomic, strong) NSString *headerLabel;
 
 - (void) select:(CGFloat)height;

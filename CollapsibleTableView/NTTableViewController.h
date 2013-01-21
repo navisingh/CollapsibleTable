@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class NTTableView;
 @interface NTTableViewController : UIViewController
 @property (nonatomic, strong) UIViewController *touchedHeaderForController;
 @end
