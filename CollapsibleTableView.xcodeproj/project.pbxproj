@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D72C9FE16AC7D6D00459E4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C9FD16AC7D6D00459E4F /* UIKit.framework */; };
+		5D72CA0016AC7D6D00459E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C9FF16AC7D6D00459E4F /* Foundation.framework */; };
+		5D72CA0216AC7D6D00459E4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72CA0116AC7D6D00459E4F /* CoreGraphics.framework */; };
+		5D72CA0816AC7D6D00459E4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D72CA0616AC7D6D00459E4F /* InfoPlist.strings */; };
+		5D72CA0A16AC7D6D00459E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72CA0916AC7D6D00459E4F /* main.m */; };
+		5D72CA0E16AC7D6D00459E4F /* NTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72CA0D16AC7D6D00459E4F /* NTAppDelegate.m */; };
+		5D72CA1016AC7D6D00459E4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D72CA0F16AC7D6D00459E4F /* Default.png */; };
+		5D72CA1216AC7D6D00459E4F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D72CA1116AC7D6D00459E4F /* Default@2x.png */; };
+		5D72CA1416AC7D6D00459E4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D72CA1316AC7D6D00459E4F /* Default-568h@2x.png */; };
+		5D72CA1716AC7D6D00459E4F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D72CA1516AC7D6D00459E4F /* MainStoryboard_iPhone.storyboard */; };
+		5D72CA1A16AC7D6D00459E4F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D72CA1816AC7D6D00459E4F /* MainStoryboard_iPad.storyboard */; };
+		5D72CA1D16AC7D6D00459E4F /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72CA1C16AC7D6D00459E4F /* NTViewController.m */; };
+		5D72CA2616AC7DE800459E4F /* NTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72CA2516AC7DE800459E4F /* NTTableView.m */; };
+		5D72CA2916AC7E2700459E4F /* NTSubTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72CA2816AC7E2700459E4F /* NTSubTable.m */; };
+		5D72CA2C16AC7EA600459E4F /* NTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72CA2B16AC7EA600459E4F /* NTTableViewController.m */; };
+		5D72CA2F16AC7EC600459E4F /* NTSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72CA2E16AC7EC600459E4F /* NTSubTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D72C9F916AC7D6D00459E4F /* CollapsibleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsibleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D72C9FD16AC7D6D00459E4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D72C9FF16AC7D6D00459E4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D72CA0116AC7D6D00459E4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D72CA0516AC7D6D00459E4F /* CollapsibleTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollapsibleTableView-Info.plist"; sourceTree = "<group>"; };
+		5D72CA0716AC7D6D00459E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D72CA0916AC7D6D00459E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D72CA0B16AC7D6D00459E4F /* CollapsibleTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableView-Prefix.pch"; sourceTree = "<group>"; };
+		5D72CA0C16AC7D6D00459E4F /* NTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAppDelegate.h; sourceTree = "<group>"; };
+		5D72CA0D16AC7D6D00459E4F /* NTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAppDelegate.m; sourceTree = "<group>"; };
+		5D72CA0F16AC7D6D00459E4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5D72CA1116AC7D6D00459E4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5D72CA1316AC7D6D00459E4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5D72CA1616AC7D6D00459E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5D72CA1916AC7D6D00459E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5D72CA1B16AC7D6D00459E4F /* NTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
+		5D72CA1C16AC7D6D00459E4F /* NTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
+		5D72CA2416AC7DE800459E4F /* NTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTableView.h; sourceTree = "<group>"; };
+		5D72CA2516AC7DE800459E4F /* NTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTableView.m; sourceTree = "<group>"; };
+		5D72CA2716AC7E2700459E4F /* NTSubTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSubTable.h; sourceTree = "<group>"; };
+		5D72CA2816AC7E2700459E4F /* NTSubTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTSubTable.m; sourceTree = "<group>"; };
+		5D72CA2A16AC7EA600459E4F /* NTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTableViewController.h; sourceTree = "<group>"; };
+		5D72CA2B16AC7EA600459E4F /* NTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTableViewController.m; sourceTree = "<group>"; };
+		5D72CA2D16AC7EC500459E4F /* NTSubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTSubTableViewController.h; sourceTree = "<group>"; };
+		5D72CA2E16AC7EC600459E4F /* NTSubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTSubTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D72C9F616AC7D6D00459E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72C9FE16AC7D6D00459E4F /* UIKit.framework in Frameworks */,
+				5D72CA0016AC7D6D00459E4F /* Foundation.framework in Frameworks */,
+				5D72CA0216AC7D6D00459E4F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D72C9EE16AC7D6C00459E4F = {
+			isa = PBXGroup;
+			children = (
+				5D72CA0316AC7D6D00459E4F /* CollapsibleTableView */,
+				5D72C9FC16AC7D6D00459E4F /* Frameworks */,
+				5D72C9FA16AC7D6D00459E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D72C9FA16AC7D6D00459E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D72C9F916AC7D6D00459E4F /* CollapsibleTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D72C9FC16AC7D6D00459E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D72C9FD16AC7D6D00459E4F /* UIKit.framework */,
+				5D72C9FF16AC7D6D00459E4F /* Foundation.framework */,
+				5D72CA0116AC7D6D00459E4F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D72CA0316AC7D6D00459E4F /* CollapsibleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5D72CA2316AC7DC000459E4F /* Table */,
+				5D72CA0C16AC7D6D00459E4F /* NTAppDelegate.h */,
+				5D72CA0D16AC7D6D00459E4F /* NTAppDelegate.m */,
+				5D72CA1516AC7D6D00459E4F /* MainStoryboard_iPhone.storyboard */,
+				5D72CA1816AC7D6D00459E4F /* MainStoryboard_iPad.storyboard */,
+				5D72CA1B16AC7D6D00459E4F /* NTViewController.h */,
+				5D72CA1C16AC7D6D00459E4F /* NTViewController.m */,
+				5D72CA0416AC7D6D00459E4F /* Supporting Files */,
+			);
+			path = CollapsibleTableView;
+			sourceTree = "<group>";
+		};
+		5D72CA0416AC7D6D00459E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D72CA0516AC7D6D00459E4F /* CollapsibleTableView-Info.plist */,
+				5D72CA0616AC7D6D00459E4F /* InfoPlist.strings */,
+				5D72CA0916AC7D6D00459E4F /* main.m */,
+				5D72CA0B16AC7D6D00459E4F /* CollapsibleTableView-Prefix.pch */,
+				5D72CA0F16AC7D6D00459E4F /* Default.png */,
+				5D72CA1116AC7D6D00459E4F /* Default@2x.png */,
+				5D72CA1316AC7D6D00459E4F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D72CA2316AC7DC000459E4F /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				5D72CA2416AC7DE800459E4F /* NTTableView.h */,
+				5D72CA2516AC7DE800459E4F /* NTTableView.m */,
+				5D72CA2716AC7E2700459E4F /* NTSubTable.h */,
+				5D72CA2816AC7E2700459E4F /* NTSubTable.m */,
+				5D72CA2A16AC7EA600459E4F /* NTTableViewController.h */,
+				5D72CA2B16AC7EA600459E4F /* NTTableViewController.m */,
+				5D72CA2D16AC7EC500459E4F /* NTSubTableViewController.h */,
+				5D72CA2E16AC7EC600459E4F /* NTSubTableViewController.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D72C9F816AC7D6D00459E4F /* CollapsibleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D72CA2016AC7D6D00459E4F /* Build configuration list for PBXNativeTarget "CollapsibleTableView" */;
+			buildPhases = (
+				5D72C9F516AC7D6D00459E4F /* Sources */,
+				5D72C9F616AC7D6D00459E4F /* Frameworks */,
+				5D72C9F716AC7D6D00459E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleTableView;
+			productName = CollapsibleTableView;
+			productReference = 5D72C9F916AC7D6D00459E4F /* CollapsibleTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D72C9F016AC7D6C00459E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Navi Singh";
+			};
+			buildConfigurationList = 5D72C9F316AC7D6C00459E4F /* Build configuration list for PBXProject "CollapsibleTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D72C9EE16AC7D6C00459E4F;
+			productRefGroup = 5D72C9FA16AC7D6D00459E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D72C9F816AC7D6D00459E4F /* CollapsibleTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D72C9F716AC7D6D00459E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72CA0816AC7D6D00459E4F /* InfoPlist.strings in Resources */,
+				5D72CA1016AC7D6D00459E4F /* Default.png in Resources */,
+				5D72CA1216AC7D6D00459E4F /* Default@2x.png in Resources */,
+				5D72CA1416AC7D6D00459E4F /* Default-568h@2x.png in Resources */,
+				5D72CA1716AC7D6D00459E4F /* MainStoryboard_iPhone.storyboard in Resources */,
+				5D72CA1A16AC7D6D00459E4F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D72C9F516AC7D6D00459E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72CA0A16AC7D6D00459E4F /* main.m in Sources */,
+				5D72CA0E16AC7D6D00459E4F /* NTAppDelegate.m in Sources */,
+				5D72CA1D16AC7D6D00459E4F /* NTViewController.m in Sources */,
+				5D72CA2616AC7DE800459E4F /* NTTableView.m in Sources */,
+				5D72CA2916AC7E2700459E4F /* NTSubTable.m in Sources */,
+				5D72CA2C16AC7EA600459E4F /* NTTableViewController.m in Sources */,
+				5D72CA2F16AC7EC600459E4F /* NTSubTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D72CA0616AC7D6D00459E4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D72CA0716AC7D6D00459E4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D72CA1516AC7D6D00459E4F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D72CA1616AC7D6D00459E4F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5D72CA1816AC7D6D00459E4F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D72CA1916AC7D6D00459E4F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D72CA1E16AC7D6D00459E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D72CA1F16AC7D6D00459E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D72CA2116AC7D6D00459E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollapsibleTableView/CollapsibleTableView-Prefix.pch";
+				INFOPLIST_FILE = "CollapsibleTableView/CollapsibleTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D72CA2216AC7D6D00459E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollapsibleTableView/CollapsibleTableView-Prefix.pch";
+				INFOPLIST_FILE = "CollapsibleTableView/CollapsibleTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D72C9F316AC7D6C00459E4F /* Build configuration list for PBXProject "CollapsibleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D72CA1E16AC7D6D00459E4F /* Debug */,
+				5D72CA1F16AC7D6D00459E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D72CA2016AC7D6D00459E4F /* Build configuration list for PBXNativeTarget "CollapsibleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D72CA2116AC7D6D00459E4F /* Debug */,
+				5D72CA2216AC7D6D00459E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D72C9F016AC7D6C00459E4F /* Project object */;
+}
